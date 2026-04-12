@@ -1,3 +1,106 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Box-Sizing & Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*BODY*/
+body{
+	background:#0D6134;
+	color:antiquewhite;
+	font-family:"Montserrat", sans-serif;	
+}
+
+h1, h2, h3{
+	font-family:"Grape Nuts", cursive;
+}
+
+header{
+	background-image: url("../images/portugal.jpg");/*this adds an image in the header section*/
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-bottom: 5em;
+}
+
+/*NAVIGATION*/
+
+nav ul{
+	list-style: none;
+	display: flex;
+	gap: 1em;
+	padding: 1em;
+	justify-content: center;
+}
+nav li a{
+	display: inline-block;
+	padding: .5px .5px;
+	background:#82C49E;
+	border-radius: 25px;
+	text-decoration: none;
+	border: 1px beige;
+	color: white;
+}
+
+nav li a:visited{
+	color:#F36A6A;
+}
+
+nav li a:hover{
+	color: #8EDCD8;
+}
+/*IMAGES*/
+
+img{
+	width: 250px;
+	height: auto;
+	border-radius: 10px;
+}
+
+/*DIV CLASS CONTENT WRAPPER*/
+.content-wrapper{
+	disply:flex;
+	gap: 3em;
+	margin: 2em;
+}
+
+/*MAIN COLOUMN*/
+main{
+}
+/*FLEXBOX LAYOUT FOR MY SECTIONS*/
+
+/*Section*/
+section{
+	display:flex;
+	align-items: flex-start;
+	gap: 1.53em;
+	margin-bottom: 3em;
+}
+
+/*ABOUT ME*/
+.about{
+	flex-direction: row; /*image to the righ*/
+}
+
+/*INTERESTS*/
+.interests {
+	flex-direction: row;
+}
+
+/*ASIDE*/
+aside{
+	background:#82C49E;
+	padding: 1em;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 20px;
+}
+
+
+
