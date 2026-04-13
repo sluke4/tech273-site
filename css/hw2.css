@@ -1,3 +1,98 @@
 @charset "utf-8";
 /* CSS Document */
 
+/*Box-Sizing & Reset*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*BODY*/
+body{
+	background-image: url("../images/portugal.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	backgroun-attachment: fixed;
+	color:antiquewhite;
+	font-family:"Montserrat", sans-serif;	
+}
+
+h1, h2, h3{
+	font-family:"Grape Nuts", cursive;
+}
+
+/*HEADER */
+header{
+	background-color: #0D6134;
+	padding: 1em;
+}
+
+header h1{
+	font-size: 4em;
+	font-weight: 700;
+	text-align: right;
+}
+
+main h2, main p{
+	background-color: #0D6134;
+	padding: 2em 2em 2em 2em;
+}
+
+/*2 COLOUMN LAYOUT*/
+
+.content-wrapper{
+	display: flex;
+	flex-direction: row;
+	gap: 3em;
+	margin: 2em;
+}
+
+
+/*NAVIGATION*/
+
+nav{
+	background-color: #0D6134;
+	display: flex;
+	flex-flow: column nowrap;
+	padding: 1em;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	padding: 1em;
+	justify-content: center;
+}
+nav li a{
+	display: inline-block;
+	padding: .5em 1em;
+	background:#82C49E;
+	border-radius: 25px;
+	text-decoration: none;
+	border: 1px beige;
+	color: white;
+}
+
+nav li a:visited{
+	color:#F36A6A;
+}
+
+nav li a:hover{
+	color: #8EDCD8;
+}
+
+main{
+	padding: 3em 3em 3em 3em;
+	margin: 2em;
+	border-radius: 20px;
+}
+/* FOOTER*/
+footer{
+	background-color: #0D6134;
+	text-align: right;
+	padding: 1em;
+}
+
+
