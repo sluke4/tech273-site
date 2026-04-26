@@ -55,7 +55,7 @@ main p{
 	background-color: beige;
 	color: #0D6134;
 	text-align: center;
-	padding: 2em 2em 2em 2em;
+	padding: 1em;
 }
 
 /*2 COLOUMN LAYOUT*/
@@ -82,7 +82,7 @@ nav ul{
 	list-style: none;
 	display: flex;
 	flex-direction: column;
-	gap: 1.2em;
+	gap: .5em;
 	padding:0;
 	justify-content: center;
 
@@ -94,6 +94,7 @@ nav li a{
 	background:beige;
 	color: #0D6134;
 	text-decoration: none;
+	text-align: center;
 }
 
 nav li a:visited{
