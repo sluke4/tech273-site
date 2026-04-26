@@ -1,0 +1,87 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:exifEX="http://cipa.jp/exif/1.0/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   xmp:Rating="0"
+   xmp:ModifyDate="2022-12-17T12:29:54.81-05:00"
+   xmp:CreateDate="2022-12-17T12:29:54.81-05:00"
+   xmp:MetadataDate="2026-04-25T18:49:42-04:00"
+   tiff:Make="Canon"
+   tiff:Model="Canon EOS M200"
+   tiff:Orientation="6"
+   exif:ExifVersion="0231"
+   exif:ExposureTime="1/500"
+   exif:ShutterSpeedValue="8965784/1000000"
+   exif:FNumber="56/10"
+   exif:ApertureValue="4970854/1000000"
+   exif:ExposureProgram="2"
+   exif:SensitivityType="2"
+   exif:RecommendedExposureIndex="640"
+   exif:ExposureBiasValue="0/1"
+   exif:MaxApertureValue="5/1"
+   exif:MeteringMode="5"
+   exif:FocalLength="36/1"
+   exif:CustomRendered="0"
+   exif:ExposureMode="0"
+   exif:WhiteBalance="0"
+   exif:SceneCaptureType="0"
+   exif:FocalPlaneXResolution="91421943/32768"
+   exif:FocalPlaneYResolution="91421943/32768"
+   exif:FocalPlaneResolutionUnit="3"
+   exif:DateTimeOriginal="2022-12-17T12:29:54.81-05:00"
+   aux:SerialNumber="332073001642"
+   aux:LensInfo="15/1 45/1 0/0 0/0"
+   aux:Lens="EF-M15-45mm f/3.5-6.3 IS STM"
+   aux:LensID="4153"
+   aux:LensSerialNumber="00000ca9d4"
+   aux:ImageNumber="0"
+   aux:ApproximateFocusDistance="724/100"
+   aux:FlashCompensation="0/1"
+   aux:Firmware="1.0.0"
+   exifEX:LensModel="EF-M15-45mm f/3.5-6.3 IS STM"
+   photoshop:DateCreated="2022-12-17T12:29:54.81-05:00"
+   photoshop:SidecarForExtension="CR3"
+   photoshop:EmbeddedXMPDigest="8E789E7EF970993BD5F007AC2476590A"
+   xmpMM:DocumentID="B969BDB31556DF9B8CACF3DEF6FEDECD"
+   xmpMM:OriginalDocumentID="B969BDB31556DF9B8CACF3DEF6FEDECD"
+   xmpMM:InstanceID="xmp.iid:06bfda42-7173-924f-9dc0-6886beb376bd"
+   dc:format="image/x-canon-cr3"
+   crd:CameraProfile="Camera Auto"
+   crd:LookName=""
+   crs:HasSettings="False"
+   crs:HasCrop="False"
+   crs:AlreadyApplied="False">
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>640</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="0"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:06bfda42-7173-924f-9dc0-6886beb376bd"
+      stEvt:when="2026-04-25T18:49:42-04:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 18.2 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

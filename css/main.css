@@ -1,11 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*Box-Sizing & Reset*/
+/*BOX SIZING & RESET*/
 *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+	margin: 0; /*removes default margins*/
+	padding: 0; /*removes default padding*/
+	box-sizing: border-box; /*includes padding and border in the width and height*/
 }
 /*BODY*/
 body{
@@ -14,19 +14,34 @@ body{
 	font-family:"Montserrat", sans-serif;	
 }
 
+/*ARTICLE*/
+article{
+	background-color: #82C49E;
+	color: #0D6134;
+	border-radius: 25px; /*rounds corners*/
+	margin: 0 auto; /*centers my article horizontally*/
+	max-width: 700px; /*makes article readable on large screens*/
+	padding: 2em;
+	margin-top: 2em;
+}
+
+/*HEADINGS*/
 h1, h2, h3{
 	font-family:"Grape Nuts", cursive;
 }
 
+h3{
+	text-align: center;
+}
 /*HEADER*/
 header{
 	background-image: url("../images/portugal.jpg");/*this adds an image in the header section*/
-	background-repeat: no-repeat;
+	background-repeat: no-repeat; /*stops image from repeating and looking like tiles*/
 	background-position:center;
-	background-size:cover;
+	background-size:cover; /*makes image fill the header*/
 	position: relative;
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; 
 	justify-content: flex-end;
 	padding: 5em 3em;
 }
@@ -39,6 +54,12 @@ header h1{
 
 p{
 	padding-top: 2em;
+}
+
+article p{
+		text-indent: 2em;
+		
+
 }
 
 /*NAVIGATION*/
@@ -97,12 +118,20 @@ section{
 
 /*ABOUT ME*/
 .about{
-	flex-direction: row; /*image to the righ*/
+	display: flex;
+	gap: 2em;
+	align-items: center;
 }
 
+.about .text {
+	flex: 1;
+}
 /*INTERESTS*/
 .interests {
-	flex-direction: row;
+	display: flex;
+	gap: 2em;
+	align-items: center;
+	margin-top: 2em;
 }
 
 /*ASIDE*/

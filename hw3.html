@@ -7,15 +7,14 @@
 		
 		<!--CSS-->
 		<link rel="stylesheet" href="css/main.css"><!--main css for the entire site-->
-		
+		<link rel="stylesheet" href="css/flipcard.css"><!--flipcard css-->
+
 		<!--Google Fonts-->
 		<!--Using Google Fonts "Grape Nuts" for some pretty headers and titles and "Montserrat" for body or content-->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-		
+		<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">		
 	</head>
-
 	<body>
 		<header> 
 			<h1>Sarah Luke</h1>
@@ -25,18 +24,74 @@
 			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="hw2.html">FLEXBOX</a></li>
-				<li><a href="hw3.html">Homework 3</a></li>
+				<li><a href="hw3.html">FLIPCARD</a></li>
 				<li><a href="hw4.html">Homework 4</a></li>
 				<li><a href="hw5.html">Homework 5</a></li>
 				<li><a href="hw6.html">Homework 6</a></li>
 			</ul>
 		</nav>
-		<hr> <!--horizonatal line for asthethic consistency with homepage-->
 		
+		<h2>My Trip to St. Lucia</h2>
 		
+		<!--FLIPCARD CONTAINER-->
+		<div class="gallery"><!--opens class container div, to center it-->
+			
+			<!--Dolphin Flipcard-->
+			<div class="card"><!--opens card div, to do 3D perspective-->
+				<div class="inner"><!--opens inner div, to rotate on hover-->
+					<div class="front"><!--opens front div, to show front side of card-->
+						<img src="images/dolphin.jpg" alt="Dolphin">
+					</div><!--closes front div-->
+					<div class="back"><!--opens back div, to show back side of card-->
+						<h3>Spotteds, Spotted!</h3>
+						<p>I spotted a pod of Spotted Dolphins in Soufriere, St.Lucia. </p>
+					</div>	<!--closes back div-->
+				</div><!--closes inner div-->
+			</div><!--closes card-->	
+		
+		<!--Waterfall Flipcard-->
+			<div class="card"><!--opens card div, to do 3D perspective-->
+				<div class="inner"><!--opens inner div, to rotate on hover-->
+					<div class="front"><!--opens front div, to show front side of card-->
+						<img src="images/waterfall.jpg" alt="waterfall">
+					</div><!--closes front div-->
+					<div class="back"><!--opens back div, to show back side of card-->
+						<h3>Falling, Falls!</h3>
+						<p> I enjoyed dipping in the Toraille Waterfalls. The water felt therapeutic.</p>
+					</div>	<!--closes back div-->
+				</div><!--closes inner div-->
+			</div><!--closes card-->	
+
+			<!--Hike Flipcard-->
+			<div class="card"><!--opens card div, to do 3D perspective-->
+				<div class="inner"><!--opens inner div, to rotate on hover-->
+					<div class="front"><!--opens front div, to show front side of card-->
+						<img src="images/boat.jpg" alt="boat">
+					</div><!--closes front div-->
+					<div class="back"><!--opens back div, to show back side of card-->
+						<h3>Landed on Island!</h3>
+						<p>A beautiful hiked I did with a friend on Pigeon Island..</p>
+					</div>	<!--closes back div-->
+				</div><!--closes inner div-->
+			</div><!--closes card-->
+			
+		<!--Paddleboard Flipcard-->
+			<div class="card"><!--opens card div, to do 3D perspective-->
+				<div class="inner"><!--opens inner div, to rotate on hover-->
+					<div class="front"><!--opens front div, to show front side of card-->
+						<img src="images/paddleboard.jpg" alt="paddleboard">
+					</div><!--closes front div-->
+					<div class="back"><!--opens back div, to show back side of card-->
+						<h3>Aboard, A Board!</h3>
+						<p>A local teen lent me his paddleboard when I visited my Grandma's hometown in Laborie, St Lucia.</p>
+					</div>	<!--closes back div-->
+				</div><!--closes inner div-->
+			</div><!--closes card-->	
+		</div> <!--closes class container div-->
+
 		<!--Footer-->
 		<footer>
-			<p>&copy; 2026. Sarah Luke</p>
+			<p>&copy; 2026. Sarah Luke</p><!--copyright-->
 		</footer>
-	</body>
-</html>
+	</body><!--ends visible content-->
+</html><!--ends document-->

@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2{
+	text-align: center;
+	margin-top: 2em;
+}
+
+/*FLIPCARD CONTAINER*/
+
+.gallery{
+	display: flex; /*use flexbox  to center the card*/
+	flex-wrap: wrap; /*gets card to wrap to the next row*/
+	justify-content: center; /*horizontally centers the flip card*/
+	margin: 3em auto; /*adds space above and below the flip card*/
+	gap: 2em; /*puts space between cards*/
+	max-width: 600px; /*puts 2 cards in a row*/
+}
+
+.card{
+	width: 250px; /*sets the width of the card*/
+	height: 250px; /*sets the height of the card*/
+	perspective: 1000px; /*adds 3D effect so the flip looks realistic*/
+}
+
+.inner{
+	width: 100%; /*makes inner wrapper fill the card width*/
+	height: 100%; /*makes inner wrapper fill the card height*/
+	position: relative; /*puts front and back on top of each other*/
+	transition: transform 0.8s; /*makes animation smooth when flipping*/
+	transform-style: preserve-3d; /*puts both sides of the card in the 3D area*/
+}
+
+.card:hover .inner{
+	transform: rotateY(180deg); /*flips the card when you hover on it*/
+}
+
+.front, .back {
+	position: absolute; /*stacks front and back exactly on top of each other*/
+	width: 100%; /* makes each side fill the card width*/
+	height: 100%; /*makes inner wrapper fill the card height*/
+	backface-visibility: hidden; /*hides the side when flipped*/
+	border-radius: 20px; /*rounds corners*/
+	overflow: hidden; /*makes sure the images doesn't spill over the round corners*/
+}
+
+.front img{
+	width: 100%; /*fills the card width*/
+	height: 100%; /*fills the card height*/
+	object-fit: cover; /*crops the image without distortion*/
+}
+
+.back {
+	background-color: #82C49E; /* puts background on the back side*/
+	color: #fff; /*colors the text*/
+	transform: rotateY(180deg);
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
