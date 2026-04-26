@@ -22,6 +22,9 @@ h1, h2, h3{
 	font-family:"Grape Nuts", cursive;
 }
 
+p{
+	text-align: right;
+}
 /*HEADER */
 header{
 	background-color: #0D6134;
@@ -38,6 +41,7 @@ header h1{
 main h2, main p{
 	background-color: #0D6134;
 	padding: 2em 2em 2em 2em;
+	
 }
 
 /*2 COLOUMN LAYOUT*/
@@ -56,6 +60,7 @@ nav{
 	background-color: #0D6134;
 	display: flex;
 	flex-flow: column nowrap;
+	border-radius: 15px;
 	padding: 1em;
 }
 nav ul{
@@ -68,11 +73,10 @@ nav ul{
 }
 nav li a{
 	display: inline-block;
-	padding: .5em 1em;
+	padding: .5em .5em;
 	background:#82C49E;
-	border-radius: 25px;
+	border-radius: 15px;
 	text-decoration: none;
-	border: 1px beige;
 	color: white;
 }
 
@@ -86,7 +90,7 @@ nav li a:hover{
 
 main{
 	padding: 3em 3em 3em 3em;
-	margin: 2em;
+	margin: 0 auto;
 	border-radius: 20px;
 }
 /* FOOTER*/
