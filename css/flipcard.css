@@ -15,6 +15,9 @@ h2{
 	margin: 3em auto; /*adds space above and below the flip card*/
 	gap: 2em; /*puts space between cards*/
 	max-width: 600px; /*puts 2 cards in a row*/
+	background-color: beige;
+	padding: 2em;
+	border-radius: 20px;
 }
 
 .card{
